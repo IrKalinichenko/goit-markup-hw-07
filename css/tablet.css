@@ -114,11 +114,15 @@ column-gap: 24px;
 
 
 .footer-blocks {
+  
+}
+
+.footer-content {
+  margin-bottom: 72px;
 }
 
 .footer-for-tablet {
 display: flex;
-flex-direction: row;
 text-align: left;
 gap: 24px;
 }
@@ -130,11 +134,13 @@ text-align: left;
 
 .footer-subscribe {
 max-width: 453px;
+
 }
 
 .footer-subscribe-form {
 flex-direction: row;
 align-items: flex-start;
+
 }
 
 .subscribe-input {
@@ -145,7 +151,3 @@ align-items: flex-start;
 
 }
 
-/* 
-.modal {
-  width: 408px;
-} */

@@ -117,11 +117,20 @@ font-weight: 400;
 
 .footer-blocks {
 flex-direction: row;
+align-items: flex-start;
 }
 
+.footer-for-tablet {
+  gap: 0;
+}
 
 .footer-content {
   margin-right: 120px;
+   margin-bottom: 0px;
+}
+
+.footer-content {
+  margin-bottom: 72px;
 }
 
 .footer-soc {
