@@ -3,9 +3,26 @@
     width: 1158px;
   }
 
+  .section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .header-list {
-  display: flex;
-  gap: 30px;
+}
+
+.header-link:focus,
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-contacts {
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.header-mail {
+margin-right: 40px;
 }
 
 .hero {
@@ -17,20 +34,23 @@
   max-width: 496px;
 }
 
+.modal {
+  width: 408px;
+}
+
+
   .features {
-  flex-basis: calc ((100% - 72px) / 4);
   padding-bottom: 0;
-  /* gap: 24px; */
 }
 
 .features-list {
   display: flex;
-  flex-wrap: nowrap;
-  row-gap: 72px;
+  gap: 24px;
+
 }
 
  .features-item {
-
+width: calc((100% - 72px) / 4);
 }
 
 .features-bg {
@@ -50,14 +70,12 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .features-text {
-  display: block;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-  min-width: 264px;
+  width: 264px;
+font-weight: 400;
 }
 
   .offer { 
@@ -85,7 +103,6 @@
 
 .team-item {
   width: calc((100% - 72px) / 4);
-
 }
 
   .customers {
@@ -98,12 +115,13 @@
 }
 
 
-.footer-content {
-  margin-right: 120px;
+.footer-blocks {
+flex-direction: row;
 }
 
-.footer-blocks {
 
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-soc {
@@ -114,4 +132,17 @@
   justify-content: left;
 
 }
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
 }
+
+.footer-subscribe {
+
+}
+
+
+
+}
+

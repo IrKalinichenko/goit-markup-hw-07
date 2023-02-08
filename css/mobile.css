@@ -3,8 +3,14 @@
     width: 428px;
   }
 
-.features {
+  .mob-menu-tel {
+font-size: 36px;
+  }
 
-}
+  .mob-menu-soc-list {
+    gap: 56px;
+  }
+
+
 
 }

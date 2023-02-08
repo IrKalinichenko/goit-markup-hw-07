@@ -3,10 +3,13 @@
     width: 768px;
   }
 
+  .header-container {
+    padding: 0 16px;
+  }
 
   .header-list {
   display: flex;
-  gap: 30px;
+  gap: 40px;
 }
 
 .header-link {
@@ -36,19 +39,27 @@
   bottom: 0;
 }
 
-.header-link:focus,
-.header-link:hover {
+.header-link:focus {
   color: var(--accent-color);
 }
 
 .header-contacts {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.04em;
 }
 
 .header-mail,
 .header-tel {
   color: var(--text-color);
+}
+
+.menu-open-btn {
+  display: none;
 }
 
   .hero {
@@ -66,8 +77,16 @@
   margin-right: auto;
 }
 
+
+.features-list {
+  column-gap: 24px;
+}
   .features-item {
-flex-basis: calc((100% - 24px) / 2);
+}
+
+.features-text {
+  width: 356px;
+  text-align-last: left;
 }
 
 .team {
@@ -91,30 +110,42 @@ column-gap: 24px;
 }
 
 .footer {
-  display: flex;
 }
+
 
 .footer-blocks {
- 
-  
-}
-
-.footer-subscribe {
- 
-}
-
-
-
-.footer-subscribe-form {
-  flex-direction: row;
 }
 
 .footer-for-tablet {
 display: flex;
+flex-direction: row;
+text-align: left;
 gap: 24px;
 }
 
-.form-for-tablet {
+
+.footer-title {
+text-align: left;
+}
+
+.footer-subscribe {
+max-width: 453px;
+}
+
+.footer-subscribe-form {
+flex-direction: row;
+align-items: flex-start;
+}
+
+.subscribe-input {
+  width: 264px;
+  margin-right: 24px;
+}
+
 
 }
-}
+
+/* 
+.modal {
+  width: 408px;
+} */
