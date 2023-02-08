@@ -64,7 +64,16 @@ letter-spacing: 0.04em;
 
   .hero {
     padding-bottom: 108px;
+    background-image: var(--bg-gradient), url(../images/hero-bg-tab.jpg);
   }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+  background-image: var(--bg-gradient), url(../images/hero-bg-tab-2x.jpg);
+  }
+}
 
   .hero-title {
   font-size: 56px;
