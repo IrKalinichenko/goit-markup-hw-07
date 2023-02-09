@@ -80,7 +80,7 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--primary-white-color);
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -108,6 +108,10 @@
     row-gap: 64px;
     column-gap: 24px;
   }
+
+.customers > .container {
+  width: 552px;
+}
 
   .customers-list {
     column-gap: 24px;
