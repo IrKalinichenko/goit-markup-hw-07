@@ -94,6 +94,10 @@
     column-gap: 24px;
   }
 
+  .features-headers {
+    text-align-last: left;
+  }
+
   .features-text {
     width: 356px;
     text-align-last: left;
@@ -103,15 +107,19 @@
     padding-bottom: 104px;
   }
 
+  .team > .container {
+    width: 582px;
+  }
+
   .team-list {
     flex-basis: calc((100% - 24px) / 2);
     row-gap: 64px;
     column-gap: 24px;
   }
 
-.customers > .container {
-  width: 552px;
-}
+  .customers > .container {
+    width: 582px;
+  }
 
   .customers-list {
     column-gap: 24px;
@@ -122,8 +130,16 @@
     height: 88px;
   }
 
+  .footer > .container {
+    width: 582px;
+  }
+
+  .footer-blocks {
+    align-items: flex-start;
+  }
+
   .footer-content {
-    margin-bottom: 72px;
+    margin-bottom: 0;
   }
 
   .footer-for-tablet {
@@ -138,7 +154,6 @@
 
   .footer-subscribe {
     max-width: 453px;
-    margin-right: 50px;
   }
 
   .footer-subscribe-form {
@@ -149,5 +164,6 @@
   .subscribe-input {
     width: 264px;
     margin-right: 24px;
+    margin-bottom: 0;
   }
 }
