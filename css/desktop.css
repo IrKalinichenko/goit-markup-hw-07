@@ -113,6 +113,10 @@
     padding-bottom: 120px;
   }
 
+.customers > .container {
+  width: 95%;
+}
+
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
